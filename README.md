@@ -1,10 +1,18 @@
-## Stock Trading Platform 
-** Stock Trading Platform** is a web-based application that simulates real-world stock trading functionality. The platform allows users to track market holdings, view positions, place orders, and manage their trading dashboard in a structured and secure way.
+##  Stock Trading Platform – Landing Page
+** Stock Trading Platform is a web-based frontend application that simulates the landing and authentication flow of a stock trading system. It allows users to explore the platform, view product information, pricing, and securely access login and signup pages through a clean and responsive UI..
 
-This project replicates the core UI and backend workflow of Zerodha, focusing on portfolio management, authentication, and RESTful APIs.
+This project is inspired by real-world trading platforms (e.g., Zerodha) and focuses on UI design, authentication flow, and frontend architecture.
 
 ## Features
-- ** User Authentication **: Secure user and owner accounts with role-based access control.- 
+- ** User Authentication **- Login & Signup pages
+
+- **Landing Page **– Product, pricing, and support sections
+
+- **Reusable Components **- Navbar, Footer, and common UI elements
+
+- **Page Routing **-  Structured navigation and 404 handling
+
+- **Responsive Design **- Optimized for multiple screen sizes 
 
 ## Installation
 **Prerequisites**
@@ -44,7 +52,7 @@ npm start
 
 ## Tech Stack
 - Backend: Node.js, Express.js
-- Database: MongoDB
+-Deployment: Render
 - Fronted :React.js
 
 ## Folder Structure
