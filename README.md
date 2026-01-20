@@ -21,7 +21,7 @@ git clone https://github.com/akshay-sharma-0909/Stock-Trading-Landing-Page
 
 Navigate to the frontend/ folder and run:
 ```bash
-npm install
+node install
 ```
 
 3. Install Frontend Dependencies:
@@ -37,7 +37,7 @@ Set up your MongoDB instance and configure the connection string in the backend/
 For the :
 ```bash
 cd frontend
-node start
+npm start
 ```
 
 6. Visit https: https://stock-trading-landing-page.onrender.com in your browser to access the application.
@@ -72,19 +72,20 @@ project-root/
 
 ## Screenshots
 ***Login page***
-<img width="938" height="321" alt="Image" src="https://github.com/user-attachments/assets/de8f7a34-180e-4637-8a22-9394656ac142" />
 
+<img width="494" height="547" alt="Image" src="https://github.com/user-attachments/assets/62de9edc-8ddd-494f-af0e-d4e45202974d" />
 
 
 ***SignUP Page***
-<img width="1272" height="611" alt="Image" src="https://github.com/user-attachments/assets/128872d9-ba9f-4423-b554-096c7a439450" />
+
+
+<img width="501" height="672" alt="Image" src="https://github.com/user-attachments/assets/340de991-cae1-4b50-8db5-0cce58277981" />
 
 
 
 
 ***Landing Page***
-<img width="1146" height="541" alt="Image" src="https://github.com/user-attachments/assets/3c4a869d-700e-4897-a15d-408c2c15e5f7" />
-<img width="903" height="821" alt="Image" src="https://github.com/user-attachments/assets/d67156e0-ae9a-4d32-b684-0807015562d2" />
+<img width="1872" height="906" alt="Image" src="https://github.com/user-attachments/assets/46cc71df-7c63-40a3-9099-dfbdaeca0eda" />
 
 
 
