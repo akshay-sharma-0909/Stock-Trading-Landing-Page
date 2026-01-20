@@ -44,7 +44,7 @@ const Login = () => {
         localStorage.setItem('token',jwtToken);
         localStorage.setItem('loggedInUser',name);
         setTimeout(() => {
-          navigate("http://localhost:3001/");
+          navigate("https://stock-trading-dashboard-6rpx.onrender.com/");
         }, 1000);
       } else {
         handleError(message);
