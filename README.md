@@ -49,24 +49,37 @@ npm start
 
 ## Folder Structure
 ```
-project-root/
+landing-page-frontend/
 │
-├── controllers/        # Business logic for routes
-├── init/               # DB connection & initialization files
-├── model/              # MongoDB schemas & models
-├── patches/            # Utility patches or fixes
-├── public/             # Static assets (CSS, JS, images)
-├── routes/             # Express route definitions
-├── utils/              # Helper & utility functions
-├── views/              # EJS templates
+├── node_modules/
+├── public/
 │
+├── src/
+│   ├── landing_page/
+│   │   ├── about/              # About page
+│   │   ├── home/               # Home page
+│   │   ├── login/
+│   │   │   └── Login.js        # Login component
+│   │   ├── pricing/            # Pricing page
+│   │   ├── products/           # Products page
+│   │   ├── signup/
+│   │   │   └── SignUp.js       # Signup component
+│   │   ├── support/            # Support page
+│   │
+│   │   ├── Footer.js           # Reusable footer component
+│   │   ├── Navbar.js           # Reusable navigation bar
+│   │   ├── NotFound.js         # 404 page
+│   │   └── OpenAccount.js      # Account creation component
+│   │
+│   ├── test/
+│   ├── index.css               # Global styles
+│   └── index.js                # React entry point
+│
+├── .env                         # Environment variables
 ├── .gitignore
-├── CloudConfig.js      # Cloud service configuration
-├── joi.js              # Joi validation schemas
-├── app.js              # Express app entry point
-├── middleware.js       # Custom middleware
 ├── package.json
 └── package-lock.json
+
 
 ```
 
